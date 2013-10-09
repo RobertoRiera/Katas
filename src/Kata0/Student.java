@@ -1,4 +1,4 @@
-package kata0;
+package Kata0;
 
 import java.util.Date;
 
