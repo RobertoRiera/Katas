@@ -2,7 +2,7 @@ package kata0;
 
 import java.util.Date;
 
-public class Kata0 {
+public class UseStudent {
 
     public static void main(String[] args) {
         // TODO code application logic here
