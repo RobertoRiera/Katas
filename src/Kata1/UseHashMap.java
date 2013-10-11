@@ -9,13 +9,16 @@ public class UseHashMap {
         String[] key = {"Juan", "Pedro", "Ana", "Pedro", "Pedro"};
         for (String name : key) {
             histogram.put(name, getFrecuency(name) + 1);
+            System.out.println(name);
         }
     }
-    
+
     public static int getFrecuency(String name) {
+            System.out.println("Entra en función");
         if (histogram.containsKey(name)) {
             return histogram.get(name);
         }
         return 0;
     }
+    
 }
