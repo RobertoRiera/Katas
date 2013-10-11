@@ -25,7 +25,7 @@ public class KataArrayList {
         for (Integer value : list) {
             System.out.println(value);
         }
-        
+
         System.out.println("Gente mayor: ");
         
         for (Integer value2 : elderPeople) {
