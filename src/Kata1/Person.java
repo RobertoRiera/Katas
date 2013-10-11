@@ -2,9 +2,9 @@ package Kata1;
 
 
 public class Person {
-    private String name;
-    private int age;
-    private String dni;
+    private final String name;
+    private final int age;
+    private final String dni;
 
     public Person(String name, int age, String dni) {
         this.name = name;
