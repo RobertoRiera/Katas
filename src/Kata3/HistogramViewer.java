@@ -13,5 +13,6 @@ public class HistogramViewer {
             System.out.println(key + ": " + histogram.get(key));
         }
     }
+    
 }
 

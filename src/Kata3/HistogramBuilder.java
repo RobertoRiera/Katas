@@ -21,5 +21,9 @@ public class HistogramBuilder {
             return histogram.get(item);
         return 0;
     }
+
+    public HashMap<Integer, Integer> getHistogram() {
+        return histogram;
+    }
     
 }
