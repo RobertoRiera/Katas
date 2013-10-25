@@ -12,9 +12,9 @@ public class CalculateHistogramControl<T> {
     }
     
     public void execute (){
-        HistogramBuilder builder = new HistogramBuilder();
+        HistogramBuilder<T> builder = new HistogramBuilder();
         builder.calculate(data);
-        HistogramViewer viewer = new HistogramViewer(builder.getHistogram());
+        HistogramViewer<T> viewer = new HistogramViewer(builder.getHistogram());
         viewer.show();
     }
 }
