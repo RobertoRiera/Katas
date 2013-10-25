@@ -10,5 +10,6 @@ public class Main {
         control.execute();
         String filename = ("C:\\Users\\usuario\\Documents\\NetBeansProjects\\Katas\\src\\Kata3\\Correos");
         CalculateEmailDomainHistogramControl control2 = new CalculateEmailDomainHistogramControl(filename);
+        control2.execute();
     }
 }
